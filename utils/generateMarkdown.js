@@ -11,8 +11,37 @@ function renderLicenseLink(license) {}
 function renderLicenseSection(license) {}
 
 // TODO: Create a function to generate markdown for README
+// THEN a high-quality, professional README.md is generated with the title of my project and sections
+//  entitled Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions
 function generateMarkdown(data) {
   return `# ${data.title}
+  * ${data.description}
+
+  ## table of contents
+
+  * [Installation](#installation)
+
+  * [Usage](#usage)
+
+  * [License](#license)
+
+  * [Contributing](#contributing)
+
+  * [Tests](#tests)
+
+  * [Questions](#questions)
+
+  ### Installation
+
+  ### Usage
+
+  ### License
+
+  ### Contributing 
+
+  ### Tests
+
+  ### Questions
 
 `;
 }
