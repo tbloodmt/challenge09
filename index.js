@@ -16,7 +16,44 @@ const questions = [
         type:"input",
         name:"description",
         message:"what's the description of your application?"
-    }
+    },
+    {
+        type:"input",
+        name:"installation",
+        message:"do you need to install anything?"
+    },
+    {
+        type:"input",
+        name:"usage",
+        message:"how is this app used?"
+    },
+    {
+        type:"input",
+        name:"contributing",
+        message:"did anyone else contribute?"
+    },
+    {
+        type:"input",
+        name:"test",
+        message:"any testing framework?"
+    },
+    {
+        type:"input",
+        name:"GitHub",
+        message:"enter your GitHub username."
+    },
+    {
+        type:"input",
+        name:"email",
+        message:"enter your email address."
+    },
+    {
+        type:"list",
+        name:"license",
+        message:"enter your email address.",
+        choices: ['MIT', 'APACHE 2.0', 'GPL 3.0', 'BSD 3', 'None']
+    },
+
 
 ];
 

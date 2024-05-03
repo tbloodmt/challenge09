@@ -32,17 +32,17 @@ function generateMarkdown(data) {
   * [Questions](#questions)
 
   ### Installation
-
+    ${data.installation}
   ### Usage
-
+    ${data.usage}
   ### License
 
   ### Contributing 
-
+    ${data.contributing}
   ### Tests
-
+    ${data.tests}
   ### Questions
-
+    if you have any questions, email me at [${data.email}](mailto:${data.email}) checkout my other work at [GitHub](https://github.com/${data.GitHub})
 `;
 }
 
